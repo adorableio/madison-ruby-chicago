@@ -2,6 +2,8 @@
 
 ##Using Middleman
 
-```$ middleman init
+```
+$ middleman init
 $ middleman server
-$ middleman build```
+$ middleman build
+```
