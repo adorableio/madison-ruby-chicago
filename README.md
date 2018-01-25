@@ -1,9 +1,7 @@
 # madison-ruby-chicago
 
-##Using Middleman
+## Site is made on middleman
+[Middleman site](https://middlemanapp.com)
 
-```
-$ middleman init
-$ middleman server
-$ middleman build
-```
+## Start the server
+`bundle exec middleman server`

@@ -5,6 +5,8 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
+activate :livereload
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
@@ -12,6 +14,16 @@ end
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
+
+set :relative_links, true
+
+page 'code.html', :layout => 'code'
+
+# Use “pretty” URLs (without the `.html` suffix)
+activate :directory_indexes
+
+# Append hashes to compiled assets
+activate :asset_hash
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
