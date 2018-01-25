@@ -3,18 +3,47 @@ $red: #e2303d;
 $white: #ffffff;
 $black: #310f14;
 
+@font-face {
+  font-family: 'Selima';
+  src: url('selima_-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Metropolis-bold';
+    src: url('metropolis-bold-webfont.woff2') format('woff2'),
+         url('metropolis-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Metropolis-medium';
+    src: url('metropolis-medium-webfont.woff2') format('woff2'),
+         url('metropolis-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Metropolis-regular';
+    src: url('metropolis-regular-webfont.woff2') format('woff2'),
+         url('metropolis-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
   background-color: $black;
   color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   text-align: center;
   margin: 0;
   padding: 0;
   height: 100vh;
   width: 100%;
+  font-family: "Metropolis-regular", sans-serif;
 }
 
 a {
@@ -76,7 +105,8 @@ body {
       }
       h2 {
         color: $black;
-
+        font-family: "Selima", sans-serif;
+        font-size: 2.2em;
       }
     }
 
