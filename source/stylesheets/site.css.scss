@@ -69,22 +69,7 @@ body {
   display: flex;
   flex-direction: row;
 
-  .register {
-    border-radius: 2rem;
-    border: 0.1rem solid $white;
-    display: block;
-    letter-spacing: 0.2rem;
-    padding: 0.5rem 2rem;
-    position: fixed;
-    right: 1rem;
-    text-decoration: none;
-    top: 1rem;
-    text-transform: uppercase;
 
-    &:hover {
-      border: 0.1rem solid $red;
-    }
-  }
 
   .left-bar {
     align-items: center;
@@ -114,12 +99,31 @@ body {
   }
 
   .scroll-content{
+    align-items: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 100%;
     overflow: hidden;
+    width: 100%;
+
     img {
       width: 75%;
+      margin-bottom: 2rem;
+    }
+
+    .register {
+      border-radius: 2rem;
+      border: 0.1rem solid $white;
+      display: block;
+      letter-spacing: 0.2rem;
+      padding: 0.5rem 2rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      width: 15rem;
+
+      &:hover {
+        border: 0.1rem solid $red;
+      }
     }
   }
 }
