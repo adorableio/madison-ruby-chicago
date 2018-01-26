@@ -34,7 +34,6 @@ $black: #310f14;
     font-style: normal;
 }
 
-
 body {
   background-color: $black;
   color: #333;
@@ -51,8 +50,8 @@ a {
 
   &:focus,
   &:hover {
-    color: $white;
     background-color: $red;
+    color: $white;
     transition: all 1s ease;
   }
 }
@@ -61,29 +60,26 @@ body {
   background: url("/images/dark.jpg") no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
-  width: 100%;
-  overflow: hidden;
+  width: 100vw;
 }
 
 .main__wrapper {
   display: flex;
   flex-direction: row;
 
-
-
   .left-bar {
     align-items: center;
-    background-color: $blue;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    left: 0;
-    padding: 1rem 2rem;
-    top: 0;
-    width: 12rem;
 
     .left-bar-items {
+      padding: 1rem;
       position: fixed;
+      left: 0;
+      top: 0;
+      width: 12rem;
+      background-color: $blue;
+
       img {
         width: 10rem;
         margin-bottom: 1rem;
@@ -92,10 +88,14 @@ body {
         color: $black;
         font-family: "Selima", sans-serif;
         font-size: 2.2em;
+        margin-bottom: 0;
       }
+
     }
 
-
+    @media screen and (max-width: 400px ) {
+      display: none;
+    }
   }
 
   .scroll-content{
@@ -103,26 +103,111 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    overflow: hidden;
     width: 100%;
 
-    img {
-      width: 75%;
-      margin-bottom: 2rem;
+    .hero-content {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      justify-content: space-around;
+      width: 100%;
+
+      .welcome {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 14rem;
+
+        .were-back {
+          margin-bottom: 2rem;
+          width: 80%;
+        }
+
+
+        .register {
+          border-radius: 2rem;
+          border: 0.1rem solid $white;
+          display: block;
+          letter-spacing: 0.2rem;
+          margin-bottom: 2rem;
+          padding: 0.5rem 2rem;
+          text-decoration: none;
+          text-transform: uppercase;
+          width: 15rem;
+
+          &:hover { border: 0.1rem solid $red; }
+        }
+      }
+
+      .arrow {
+        align-self: center;
+        width: 5rem;
+        animation: bounce 1s infinite alternate;
+        -webkit-animation: bounce 1s infinite alternate;
+      }
+
+      @keyframes bounce {
+        from {
+          transform: translateY(0px);
+        }
+        to {
+          transform: translateY(-15px);
+        }
+      }
+
+      @-webkit-keyframes bounce {
+        from {
+          transform: translateY(0px);
+        }
+        to {
+          transform: translateY(-15px);
+        }
+      }
     }
+  }
 
-    .register {
-      border-radius: 2rem;
-      border: 0.1rem solid $white;
-      display: block;
-      letter-spacing: 0.2rem;
-      padding: 0.5rem 2rem;
-      text-decoration: none;
+  .why__wrapper {
+    background-color: $white;
+    justify-content: space-around;
+    padding: 4rem;
+    width: 100%;
+
+    p {
+      font-size: 1.5em;
       text-transform: uppercase;
-      width: 15rem;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+    .fancy {
+      font-family: "Selima", sans-serif;
+      color: $red;
+      font-size: 4em;
+      font-weight: normal;
+      text-transform: lowercase;
+      margin-top: 0;
+    }
+  }
 
-      &:hover {
-        border: 0.1rem solid $red;
+  .speaker__wrapper {
+    background-color: $black;
+    padding: 4rem;
+    width: 100%;
+
+    .speaker-list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      li {
+        padding: 2rem;
+        h3 {
+          color: $white;
+          font-family: "Selima", sans-serif;
+          font-size: 4rem;
+          font-weight: 300;
+          margin-top: 1rem;
+        }
       }
     }
   }
