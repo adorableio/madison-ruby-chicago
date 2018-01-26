@@ -209,9 +209,15 @@ body {
           transition: all 1s ease;
           h3 { color: $red; }
         }
+        
         li {
           list-style: none;
           padding: 2rem;
+
+          img {
+            -webkit-transition: .3s ease-in-out;
+            transition: .3s ease-in-out;
+          }
 
           h3 {
             color: $white;
@@ -263,15 +269,11 @@ body {
         opacity: 0.5;
       }
 
-      img {
-        width: 8rem;
-      }
+      img { width: 8rem; }
     }
 
     h2,
-    h3 {
-      color: $red;
-    }
+    h3 { color: $red; }
 
     p {
       color: $white;
@@ -291,5 +293,4 @@ body {
     text-transform: uppercase;
     width: 15rem;
   }
-
 }
