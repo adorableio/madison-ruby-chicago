@@ -34,6 +34,133 @@ $black: #310f14;
     font-style: normal;
 }
 
+/* HTML Reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
 body {
   background-color: $black;
   color: #333;
@@ -43,6 +170,10 @@ body {
   height: 100vh;
   width: 100%;
   font-family: "Metropolis-regular", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 a {
@@ -60,7 +191,7 @@ body {
   background: url("/images/dark.jpg") no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .main__wrapper {
@@ -71,14 +202,16 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
+    z-index: 101;
 
     .left-bar-items {
       padding: 1rem;
       position: fixed;
       left: 0;
       top: 0;
-      width: 12rem;
+      width: 15rem;
       background-color: $blue;
+      transition: all 1s ease;
 
       img {
         width: 10rem;
@@ -92,11 +225,25 @@ body {
         margin-top: 0;
       }
 
+      @media screen and (max-width: 400px ) {
+        width: 100%;
+        flex-direction: row;
+        display: flex;
+        padding: 0.2rem;
+        transition: all 1s ease;
+
+        img {
+          height: 4rem;
+          margin-left: 1rem;
+          margin-right: 2rem;
+          width: auto;
+        }
+        h2 {
+          align-self: center;
+        }
+      }
     }
 
-    @media screen and (max-width: 400px ) {
-      display: none;
-    }
   }
 
   .scroll-content{
@@ -169,40 +316,37 @@ body {
 
   .why__wrapper {
     background-color: $white;
-    justify-content: space-around;
-    padding: 8rem 1rem;
+    padding: 4rem 2rem;
     width: 100%;
-    overflow: hidden;
-
-    p {
-      font-size: 1.5em;
-      text-transform: uppercase;
-      margin-bottom: 0.5rem;
-      font-weight: bold;
-      width: 60rem;
-      text-align: left;
-      line-height: 3rem;
-      margin: 0 auto 1rem auto;
-    }
-    .fancy {
-      font-family: "Selima", sans-serif;
-      color: $red;
-      font-size: 2.2em;
-      font-weight: normal;
-      text-transform: none;
-      margin-top: 0;
-      margin-bottom: 3rem;
-    }
 
     .content {
-      display: block;
-      line-height: 2em;
-      text-align: left;
+      max-width: 60rem;
       margin: 0 auto;
-      width: 60rem;
+      display: block;
+
+      h3 {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+        line-height: 2em;
+      }
+
       p {
-        text-transform: none;
         font-size: 1em;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+        text-align: left;
+        line-height: 3rem;
+        margin: 0 auto 1rem auto;
+      }
+      .fancy {
+        font-family: "Selima", sans-serif;
+        color: $red;
+        font-size: 3em;
+        font-weight: normal;
+        margin-top: 0;
+        margin-bottom: 3rem;
       }
     }
   }
