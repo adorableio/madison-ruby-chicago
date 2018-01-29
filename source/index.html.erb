@@ -1,5 +1,5 @@
 ---
-title: Madison Ruby:CHICAGO
+title: Madison+ Ruby:CHICAGO
 ---
 
 <div class="main__wrapper">
@@ -12,12 +12,28 @@ title: Madison Ruby:CHICAGO
   </div>
 
   <div class="scroll-content">
-    <img src="/images/were-back.svg" />
-    <%= link_to(
-      "Register Now",
-      "https://ti.to/adorable/madison-ruby-chicago",
-      target: "_blank",
-      class: "register"
+    <div class="hero-content">
+      <div class="welcome">
+        <img class="were-back" src="/images/were-back.svg" />
+        <%= link_to(
+          "Register Now",
+          "https://ti.to/adorable/madison-ruby-chicago",
+          target: "_blank",
+          class: "register"
         ) %>
+      </div>
+      <img class="arrow" src="/images/arrow.svg" />
+    </div>
+
+    <%= partial "partials/why" %>
+    <%= partial "partials/speakers" %>
+
+    <footer id="footer">
+      <%= link_to(
+        'Code of Conduct',
+        '/code_of_conduct.html'
+      ) %>
+    </footer>
   </div>
+
 </div>
