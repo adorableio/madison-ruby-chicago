@@ -336,8 +336,7 @@ body {
         font-size: 1em;
         margin-bottom: 0.5rem;
         font-weight: bold;
-        text-align: left;
-        line-height: 3rem;
+        line-height: 2.2rem;
         margin: 0 auto 1rem auto;
       }
       .fancy {
@@ -347,6 +346,7 @@ body {
         font-weight: normal;
         margin-top: 0;
         margin-bottom: 3rem;
+        text-align: center;
       }
     }
   }
@@ -417,37 +417,41 @@ body {
 
 }
 .code-of-conduct__wrapper {
-  background-color: rgba(49, 15, 20, 0.9);
+  background-color: rgba(240, 240, 240, 0.9);
   padding: 2rem;
+
+  img {
+    max-width: 10rem;
+  }
 
   .code-content {
     max-width: 800px;
     margin: 0 auto;
 
-    .logo-link {
-      background-color: transparent;
-      border: none;
-      &:hover {
-        opacity: 0.5;
-      }
-
-      img { width: 8rem; }
+    h2 {
+      font-size: 2rem;
     }
 
     h2,
-    h3 { color: $red; }
+    h3 {
+      color: $red;
+      margin: 2rem;
+      font-weight: bold;
+    }
 
     p {
-      color: $white;
+      color: $black;
       line-height: 2rem;
       text-align: left;
+      margin-bottom: 2rem;
     }
   }
 
   a {
     align-self: center;
     border-radius: 2rem;
-    border: 0.1rem solid $white;
+    border: 0.1rem solid $black;
+    color: $black;
     letter-spacing: 0.2rem;
     margin-bottom: 2rem;
     padding: 0.5rem 2rem;
