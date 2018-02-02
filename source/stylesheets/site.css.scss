@@ -469,37 +469,38 @@ body {
 .prospectus__wrapper {
   padding: 2rem;
   height: 100%;
-  overflow: scroll;
 
   h2 {
     color: $white;
     font-size: 2em;
-    text-transform: uppercase;
     margin-bottom: 2rem;
+    text-transform: uppercase;
+  }
+
+  .table-container {
+    margin-bottom: 4rem;
+    overflow-x: auto;
   }
 
   table {
     background-color: rgba(240, 240, 240, 0.95);
-    width: 100%;
     border-collapse: collapse;
-    margin-bottom: 4rem;
+    min-width: 1051px;
+    overflow: scroll;
   }
 
   /* Zebra striping */
-  tr:nth-of-type(odd) {
-    background: $white;
-  }
+  tr:nth-of-type(odd) { background: $white; }
+
   th {
     background: $red;
     color: white;
     font-weight: bold;
   }
+
   .cost-row {
     color: $red;
-
-    span {
-      float: right;
-    }
+    span { float: right; }
   }
 
   .red-dot {
@@ -513,9 +514,7 @@ body {
     text-align: center;
   }
 
-  td:first-child {
-    text-align: left;
-  }
+  td:first-child { text-align: left; }
 
   a {
     align-self: center;
