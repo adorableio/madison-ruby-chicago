@@ -469,6 +469,9 @@ body {
 .prospectus__wrapper {
   padding: 2rem;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 
   h2 {
     color: $white;
@@ -478,6 +481,7 @@ body {
   }
 
   .table-container {
+    align-self: center;
     margin-bottom: 4rem;
     overflow-x: auto;
   }
