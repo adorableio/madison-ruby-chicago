@@ -458,5 +458,83 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     width: 15rem;
+    &:hover {
+      background-color: $red;
+      border: 0.1rem solid $red;
+      color: $white;
+    }
+  }
+}
+
+.prospectus__wrapper {
+  padding: 2rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  h2 {
+    color: $white;
+    font-size: 2em;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+  }
+
+  .table-container {
+    align-self: center;
+    margin-bottom: 4rem;
+    overflow-x: auto;
+  }
+
+  table {
+    background-color: rgba(240, 240, 240, 0.95);
+    border-collapse: collapse;
+    min-width: 1051px;
+    overflow: scroll;
+  }
+
+  /* Zebra striping */
+  tr:nth-of-type(odd) { background: $white; }
+
+  th {
+    background: $red;
+    color: white;
+    font-weight: bold;
+  }
+
+  .cost-row {
+    color: $red;
+    span { float: right; }
+  }
+
+  .red-dot {
+    color: $red;
+    font-size: 2em;
+  }
+
+  td, th {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  td:first-child { text-align: left; }
+
+  a {
+    align-self: center;
+    border-radius: 2rem;
+    border: 0.1rem solid $white;
+    color: $white;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 15rem;
+    &:hover {
+      background-color: $red;
+      border: 0.1rem solid $red;
+      color: $white;
+    }
   }
 }
