@@ -490,6 +490,8 @@ body {
   table {
     background-color: rgba(240, 240, 240, 0.95);
     border-collapse: collapse;
+    margin: 0 auto 4rem auto;
+    overflow: scroll;
   }
 
   /* Zebra striping */
