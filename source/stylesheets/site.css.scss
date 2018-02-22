@@ -484,13 +484,12 @@ body {
     align-self: center;
     margin-bottom: 4rem;
     overflow-x: auto;
+    width: 100%;
   }
 
   table {
     background-color: rgba(240, 240, 240, 0.95);
     border-collapse: collapse;
-    min-width: 1051px;
-    overflow: scroll;
   }
 
   /* Zebra striping */
