@@ -1,5 +1,6 @@
 $blue: #63b7ff;
 $red: #e2303d;
+$darkRed: #9F0215;
 $white: #ffffff;
 $black: #310f14;
 $pink: #F8D0D4;
@@ -245,6 +246,13 @@ body {
 
   }
 
+  .section-title {
+    color: $white;
+    letter-spacing: 0.5em;
+    text-align: right;
+    text-transform: uppercase;
+  }
+
   .scroll-content{
     align-items: center;
     display: flex;
@@ -315,13 +323,16 @@ body {
 
   .why__wrapper {
     background-color: $white;
-    padding: 4rem 2rem;
-    width: 100%;
+    display: flex;
 
     .content {
-      max-width: 60rem;
-      margin: 0 auto;
-      display: block;
+      align-items: center;
+      align-self: center;
+      padding: 4rem;
+
+      img {
+        height: 500px;
+      }
 
       h3 {
         font-size: 1.5em;
@@ -355,14 +366,18 @@ body {
     padding: 4rem 8rem;
     width: 100%;
 
+    h2 {
+      color: $red;
+    }
+
     .speaker-list {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content: space-between;
 
       .speaker {
-        margin: 4rem 1rem;
+        margin: 4rem 1rem 4rem 0;
         text-align: left;
         max-width: 250px;
         border-left: 2px solid $blue;
@@ -395,8 +410,13 @@ body {
     background-image: url('/images/arches.svg');
     background-repeat: no-repeat;
     background-position: bottom;
-    padding: 8rem 4rem;
+    padding: 4rem 8rem;
     width: 100%;
+
+    h2 {
+      color: $red;
+      margin-bottom: 4rem;
+    }
 
     .schedule-content {
       display: flex;
@@ -432,7 +452,68 @@ body {
         }
       }
     }
+  }
 
+  .sponsor__wrapper{
+    background-color: $darkRed;
+    width: 100%;
+    background-image: url("/images/oneway.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 4rem 8rem;
+
+    .sponsor-content {
+
+      h6 {
+        color: $black;
+        font-size: 0.9em;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+      }
+
+      .sponsors {
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: flex-start;
+        flex-flow: row wrap;
+
+        img {
+          margin-bottom: 1rem;
+          margin-right: 1rem;
+        }
+
+      }
+    }
+  }
+
+  .accommodations__wrapper{
+    background-color:  rgba(49, 15, 20, 0.9);
+    width: 100%;
+    padding: 4rem 8rem;
+  }
+
+  .videos__wrapper{
+    background-color:  rgba(49, 15, 20, 0.9);
+    background-image: url('/images/basketball.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 8rem;
+    width: 100%;
+
+    h2 {
+      margin-bottom: 4rem;
+    }
+
+    .videos {
+      display: flex;
+      justify-content: center;
+      flex-flow: row wrap;
+
+      iframe {
+        margin: 1rem;
+      }
+    }
   }
 
   footer {
