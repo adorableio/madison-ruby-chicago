@@ -2,6 +2,7 @@ $blue: #63b7ff;
 $red: #e2303d;
 $white: #ffffff;
 $black: #310f14;
+$pink: #F8D0D4;
 
 @font-face {
   font-family: 'Selima';
@@ -164,7 +165,6 @@ table {
 body {
   background-color: $black;
   color: #333;
-  text-align: center;
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -209,7 +209,6 @@ body {
       position: fixed;
       left: 0;
       top: 0;
-      width: 15rem;
       background-color: $blue;
       transition: all 1s ease;
 
@@ -353,7 +352,7 @@ body {
 
   .speaker__wrapper {
     background-color:  rgba(49, 15, 20, 0.9);
-    padding: 4rem;
+    padding: 4rem 8rem;
     width: 100%;
 
     .speaker-list {
@@ -362,37 +361,78 @@ body {
       flex-wrap: wrap;
       justify-content: space-around;
 
-      .cfp {
-        background-color: transparent;
-        text-decoration: none;
+      .speaker {
+        margin: 4rem 1rem;
+        text-align: left;
+        max-width: 250px;
+        border-left: 2px solid $blue;
 
-        &:hover {
-          opacity: 0.8;
-          transition: all 1s ease;
-          h3 { color: $red; }
+        img {
+          margin-bottom: 1rem;
         }
 
-        li {
-          list-style: none;
-          padding: 2rem;
-
-          img {
-            -webkit-transition: .3s ease-in-out;
-            transition: .3s ease-in-out;
-          }
-
+        .speaker-content {
+          margin-left: 1rem;
           h3 {
             color: $white;
-            font-family: "Selima", sans-serif;
-            font-size: 4rem;
-            font-weight: 300;
-            margin-top: 1rem;
-            margin-bottom: 0.5rem;
+            font-family: 'Selima', serif;
+            font-size: 2.2em;
+            margin-bottom: 1rem;
+            word-wrap: break-word;
+          }
+
+          h4 {
+            color: $pink;
+            line-height: 1.2em;
           }
         }
       }
-
     }
+  }
+
+  .schedule__wrapper {
+    background-color: $white;
+    background-image: url('/images/arches.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 8rem 4rem;
+    width: 100%;
+
+    .schedule-content {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .schedule-list {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: column wrap;
+
+        li {
+          background-color: $white;
+          box-shadow: 0 2px 10px 0 #ddd;
+          margin: 0.5rem;
+          padding: 1rem 1.2rem;
+          width: 22rem;
+
+          h4 {
+            font-family: 'Metropolis-bold', sans-serif;
+            font-size: 1.1em;
+            margin-bottom: 0.5rem;
+          }
+
+          h6 {
+            margin-bottom: 1rem;
+            font-size: 0.9em;
+          }
+
+          &.break { border-left: 3px solid $red; }
+          &.talk { border-left: 3px solid $blue; }
+        }
+      }
+    }
+
   }
 
   footer {
