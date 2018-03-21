@@ -33,14 +33,33 @@ title: Madison+ Ruby:CHICAGO
     <%= partial "partials/videos" %>
 
     <footer id="footer">
-      <%= link_to(
-        'Code of Conduct',
-        '/code_of_conduct.html'
-      ) %>
-      <%= link_to(
-        'Sponsor Prospectus',
-        '/prospectus.html'
-      ) %>
+      <div class="social">
+        <a href="http://www.twitter.com/adorableio">
+          <%= partial "images/twitter" %>
+        </a>
+        <a href="http://www.facebook.com/adorableio">
+          <%= partial "images/facebook" %>
+        </a>
+        <a href="http://www.youtube.com/adorableio">
+          <%= partial "images/youtube" %>
+        </a>
+        <a href="http://www.instagram.com/adorableio">
+          <%= partial "images/instagram" %>
+        </a>
+      </div>
+      <div class="links">
+        <%= link_to(
+          'Code of Conduct',
+          '/code_of_conduct.html'
+        ) %>
+        <%= link_to(
+          'Sponsor Prospectus',
+          '/prospectus.html'
+        ) %>
+      </div>
+      <div class="copy">
+        <p>Madison+ Ruby: Chicago &copy; 2018</p>
+      </div>
     </footer>
   </div>
 
