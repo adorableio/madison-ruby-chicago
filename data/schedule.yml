@@ -4,152 +4,152 @@
   events:
     -
       title: Set up
-      start: 2018-05-10T7:30:00-05:00
-      end: 2018-05-10T8:00:00-05:00
+      startTime: 2018-05-10T7:30:00-05:00
+      endTime: 2018-05-10T8:00:00-05:00
       tags: [info]
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Check in
-      start: 2018-05-10T8:00:00-05:00
-      end: 2018-05-10T9:00:00-05:00
+      startTime: 2018-05-10T8:00:00-05:00
+      endTime: 2018-05-10T9:00:00-05:00
       tags: [info]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Welcome
       speaker: TBD
-      start: 2018-05-10T9:00:00-05:00
-      end: 2018-05-10T9:15:00-05:00
+      startTime: 2018-05-10T9:00:00-05:00
+      endTime: 2018-05-10T9:15:00-05:00
       tags: [talk, emcee]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #1'
       speaker: TBD
-      start: 2018-05-10T9:15:00-05:00
-      end: 2018-05-10T9:45:00-05:00
+      startTime: 2018-05-10T9:15:00-05:00
+      endTime: 2018-05-10T9:45:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #2'
       speaker: TBD
-      start: 2018-05-10T9:45:00-05:00
-      end: 2018-05-10T10:15:00-05:00
+      startTime: 2018-05-10T9:45:00-05:00
+      endTime: 2018-05-10T10:15:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Break
-      start: 2018-05-10T10:15:00-05:00
-      end: 2018-05-10T10:45:00-05:00
+      startTime: 2018-05-10T10:15:00-05:00
+      endTime: 2018-05-10T10:45:00-05:00
       tags: [break]
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #3'
       speaker: TBD
-      start: 2018-05-10T10:45:00-05:00
-      end: 2018-05-10T11:15:00-05:00
+      startTime: 2018-05-10T10:45:00-05:00
+      endTime: 2018-05-10T11:15:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #4'
       speaker: TBD
-      start: 2018-05-10T11:15:00-05:00
-      end: 2018-05-10T11:45:00-05:00
+      startTime: 2018-05-10T11:15:00-05:00
+      endTime: 2018-05-10T11:45:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Lunch
-      start: 2018-05-10T11:45:00-05:00
-      end: 2018-05-10T13:00:00-05:00
+      startTime: 2018-05-10T11:45:00-05:00
+      endTime: 2018-05-10T13:00:00-05:00
       tags: [break]
       description: Lorem ipsum dolor est
     -
       title: Speaker set up
-      start: 2018-05-10T13:00:00-05:00
-      end: 2018-05-10T13:15:00-05:00
+      startTime: 2018-05-10T13:00:00-05:00
+      endTime: 2018-05-10T13:15:00-05:00
       tags: [info]
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #5'
       speaker: TBD
-      start: 2018-05-10T13:15:00-05:00
-      end: 2018-05-10T13:45:00-05:00
+      startTime: 2018-05-10T13:15:00-05:00
+      endTime: 2018-05-10T13:45:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #6'
       speaker: TBD
-      start: 2018-05-10T13:45:00-05:00
-      end: 2018-05-10T14:15:00-05:00
+      startTime: 2018-05-10T13:45:00-05:00
+      endTime: 2018-05-10T14:15:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Snack break
-      start: 2018-05-10T14:15:00-05:00
-      end: 2018-05-10T14:45:00-05:00
+      startTime: 2018-05-10T14:15:00-05:00
+      endTime: 2018-05-10T14:45:00-05:00
       tags: [break, snack]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #7'
       speaker: TBD
-      start: 2018-05-10T14:45:00-05:00
-      end: 2018-05-10T15:15:00-05:00
+      startTime: 2018-05-10T14:45:00-05:00
+      endTime: 2018-05-10T15:15:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #8'
       speaker: TBD
-      start: 2018-05-10T15:15:00-05:00
-      end: 2018-05-10T15:45:00-05:00
+      startTime: 2018-05-10T15:15:00-05:00
+      endTime: 2018-05-10T15:45:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Snack break
-      start: 2018-05-10T15:45:00-05:00
-      end: 2018-05-10T16:15:00-05:00
+      startTime: 2018-05-10T15:45:00-05:00
+      endTime: 2018-05-10T16:15:00-05:00
       tags: [break, snack]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #9'
       speaker: TBD
-      start: 2018-05-10T16:15:00-05:00
-      end: 2018-05-10T16:45:00-05:00
+      startTime: 2018-05-10T16:15:00-05:00
+      endTime: 2018-05-10T16:45:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: End of day announcements
       speaker: TBD
-      start: 2018-05-10T16:45:00-05:00
-      end: 2018-05-10T17:00:00-05:00
+      startTime: 2018-05-10T16:45:00-05:00
+      endTime: 2018-05-10T17:00:00-05:00
       tags: [talk, emcee]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Clean up
-      start: 2018-05-10T17:00:00-05:00
-      end: 2018-05-10T17:30:00-05:00
+      startTime: 2018-05-10T17:00:00-05:00
+      endTime: 2018-05-10T17:30:00-05:00
       tags: [info]
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Closed
-      start: 2018-05-10T17:30:00-05:00
-      end: 2018-05-10T17:45:00-05:00
+      startTime: 2018-05-10T17:30:00-05:00
+      endTime: 2018-05-10T17:45:00-05:00
       tags: [info]
     -
       title: After party
-      start: 2018-05-10T19:00:00-05:00
-      end: 2018-05-10T22:00:00-05:00
+      startTime: 2018-05-10T19:00:00-05:00
+      endTime: 2018-05-10T22:00:00-05:00
       tags: [social]
       location: Dave & Busters, 1030 N Clark St, Chicago IL 60610
       description: >
@@ -164,137 +164,137 @@
   events:
     -
       title: Check in
-      start: 2018-05-11T08:30:00-05:00
-      end: 2018-05-11T09:00:00-05:00
+      startTime: 2018-05-11T08:30:00-05:00
+      endTime: 2018-05-11T09:00:00-05:00
       tags: [info]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Start of day
-      start: 2018-05-11T09:00:00-05:00
-      end: 2018-05-11T09:15:00-05:00
+      startTime: 2018-05-11T09:00:00-05:00
+      endTime: 2018-05-11T09:15:00-05:00
       tags: [info]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #1'
       speaker: TBD
-      start: 2018-05-11T09:15:00-05:00
-      end: 2018-05-11T09:45:00-05:00
+      startTime: 2018-05-11T09:15:00-05:00
+      endTime: 2018-05-11T09:45:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #2'
       speaker: TBD
-      start: 2018-05-11T09:45:00-05:00
-      end: 2018-05-11T10:15:00-05:00
+      startTime: 2018-05-11T09:45:00-05:00
+      endTime: 2018-05-11T10:15:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Break
-      start: 2018-05-11T10:15:00-05:00
-      end: 2018-05-11T10:45:00-05:00
+      startTime: 2018-05-11T10:15:00-05:00
+      endTime: 2018-05-11T10:45:00-05:00
       tags: [break]
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #3'
       speaker: TBD
-      start: 2018-05-11T10:45:00-05:00
-      end: 2018-05-11T11:15:00-05:00
+      startTime: 2018-05-11T10:45:00-05:00
+      endTime: 2018-05-11T11:15:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #4'
       speaker: TBD
-      start: 2018-05-11T11:15:00-05:00
-      end: 2018-05-11T11:45:00-05:00
+      startTime: 2018-05-11T11:15:00-05:00
+      endTime: 2018-05-11T11:45:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Lunch
-      start: 2018-05-11T11:45:00-05:00
-      end: 2018-05-11T13:00:00-05:00
+      startTime: 2018-05-11T11:45:00-05:00
+      endTime: 2018-05-11T13:00:00-05:00
       tags: [break]
       description: Lorem ipsum dolor est
     -
       title: Speaker set up
-      start: 2018-05-11T13:00:00-05:00
-      end: 2018-05-11T13:15:00-05:00
+      startTime: 2018-05-11T13:00:00-05:00
+      endTime: 2018-05-11T13:15:00-05:00
       tags: [info]
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #5'
       speaker: TBD
-      start: 2018-05-11T13:15:00-05:00
-      end: 2018-05-11T13:45:00-05:00
+      startTime: 2018-05-11T13:15:00-05:00
+      endTime: 2018-05-11T13:45:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #6'
       speaker: TBD
-      start: 2018-05-11T13:45:00-05:00
-      end: 2018-05-11T14:15:00-05:00
+      startTime: 2018-05-11T13:45:00-05:00
+      endTime: 2018-05-11T14:15:00-05:00
       tags: [talk, guest]
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Snack break
-      start: 2018-05-11T14:15:00-05:00
-      end: 2018-05-11T14:45:00-05:00
+      startTime: 2018-05-11T14:15:00-05:00
+      endTime: 2018-05-11T14:45:00-05:00
       tags: [break, snack]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #7'
       speaker: TBD
-      start: 2018-05-11T14:45:00-05:00
-      end: 2018-05-11T15:15:00-05:00
+      startTime: 2018-05-11T14:45:00-05:00
+      endTime: 2018-05-11T15:15:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #8'
       speaker: TBD
-      start: 2018-05-11T15:15:00-05:00
-      end: 2018-05-11T15:45:00-05:00
+      startTime: 2018-05-11T15:15:00-05:00
+      endTime: 2018-05-11T15:45:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Snack break
-      start: 2018-05-11T15:45:00-05:00
-      end: 2018-05-11T16:15:00-05:00
+      startTime: 2018-05-11T15:45:00-05:00
+      endTime: 2018-05-11T16:15:00-05:00
       tags: [break, snack]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #9'
       speaker: TBD
-      start: 2018-05-11T16:15:00-05:00
-      end: 2018-05-11T16:45:00-05:00
+      startTime: 2018-05-11T16:15:00-05:00
+      endTime: 2018-05-11T16:45:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Closing announcements
       speaker: TBD
-      start: 2018-05-11T16:45:00-05:00
-      end: 2018-05-11T17:00:00-05:00
+      startTime: 2018-05-11T16:45:00-05:00
+      endTime: 2018-05-11T17:00:00-05:00
       tags: [talk, emcee]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Clean up
-      start: 2018-05-11T17:00:00-05:00
-      end: 2018-05-11T17:30:00-05:00
+      startTime: 2018-05-11T17:00:00-05:00
+      endTime: 2018-05-11T17:30:00-05:00
       tags: [info]
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Closed
-      start: 2018-05-11T17:30:00-05:00
-      end: 2018-05-11T17:45:00-05:00
+      startTime: 2018-05-11T17:30:00-05:00
+      endTime: 2018-05-11T17:45:00-05:00
       tags: [info]

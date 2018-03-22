@@ -235,17 +235,34 @@ strong {
     .close {
       align-items: center;
       border-radius: 2rem;
-      color: rgba($black, 0.5);
       cursor: pointer;
       display: flex;
-      height: 2rem;
-      overflow: visible;
-      padding: 0.5rem;
+      fill: rgba($black, 0.5);
+      height: 1.5rem;
+      justify-content: center;
       position: absolute;
       right: 1rem;
       top: 1rem;
+      width: 1.5rem;
 
-      &:hover { color: $white; }
+      svg {
+        height: 0.75rem;
+        width: 0.75rem;
+      }
+
+      &:hover { fill: $white; }
+    }
+
+    .location {
+      align-items: center;
+      display: flex;
+
+      .icon {
+        fill: $red;
+        height: 1rem;
+        margin-right: 0.25rem;
+        width: 1rem;
+      }
     }
 
     .tags {

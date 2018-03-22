@@ -4,60 +4,25 @@
 
     <% data.schedule.each do |day| %>
     <%
-      min = day.events.collect {|v| v.start }.min
-      max = day.events.collect {|v| v.end}.max
-      block = day.block * 60
-      range = (min.to_i...max.to_i).step(block)
+      @min = day.events.collect {|v| v.startTime }.min
+      @max = day.events.collect {|v| v.endTime }.max
+      @block = day.block * 60
+      @range = (@min.to_i...@max.to_i).step(@block)
     %>
     <ul class="schedule-list" style="grid-template-rows: auto <%=
-      range.reduce("") do |memo, obj|
+      @range.reduce("") do |memo, obj|
         tags = day.events
-            .select {|event| (event.start.to_i...event.end.to_i).cover? obj }
-            .collect {|event| event.tags }
-            .flatten
-            .uniq
+          .select {|event| (event.startTime.to_i...event.endTime.to_i).cover? obj }
+          .collect {|event| event.tags }
+          .flatten
+          .uniq
         "#{memo} #{tags.include?("talk") ? "1fr" : tags.include?("break") ? "0.5fr" : "auto"}"
       end
     %>">
       <h3><%= day.date.strftime("%A %-d %B") %></h3>
 
       <% day.events.each do |event| %>
-      <li
-        class="event <%= event.tags&.join(" ") %>"
-        style="<%= "grid-row-start: #{((event.start - min) / block + 2).to_i}; grid-row-end: span #{((event.end - event.start) / block).to_i}" %>"
-      >
-        <h6><%= event.start.strftime("%-l:%M%P") %></h6>
-        <h4><%= event.title %></h4>
-        <% if event.speaker? %>
-        <h5><%= event.speaker %></h5>
-        <% end %>
-        <section class="modal-content">
-          <h3><%= event.title %></h3>
-          <p class="time">
-            <%= event.start.strftime("<strong>%-l:%M%P") %> &ndash; <%= event.end.strftime("%-l:%M%P</strong> %A %-d %B") %>
-          </p>
-          <% if event.speaker? %>
-          <h4><%= event.speaker %></h4>
-          <% end %>
-          <% if event.description? %>
-          <p><%= event.description %></p>
-          <% end %>
-          <div class="tags">
-
-            <% event.tags.each do |t| %>
-            <span class="<%= t %>"></span>
-            <% end %>
-
-          </div>
-          <% if event.location? %>
-          <p class="location">
-            <span class="icon">&lt;icon goes here&gt;</span>
-            <%= event.location %>
-          </p>
-          <% end %>
-          <a class="close" title="close">&lt;icon goes here&gt;</a>
-        </section>
-      </li>
+      <%= partial "partials/event", locals: { min: @min, block: @block }.merge!(event) %>
       <% end %>
 
     </ul>
