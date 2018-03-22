@@ -44,9 +44,34 @@ function positionSpeakers() {
   return css;
 }
 
+function injectModal(_e) {
+  var content = this.querySelector('.modal-content').cloneNode(true);
+  content.querySelector('.close').addEventListener('click', closeModal);
+  document.getElementById('modal__wrapper').appendChild(content);
+  document.getElementsByTagName('body')[0].classList.add('show-modal');
+}
+
+function closeModal(_e) {
+  var modal = document.getElementById('modal__wrapper');
+  modal.removeChild(modal.querySelector('.modal-content'));
+  document.getElementsByTagName('body')[0].classList.remove('show-modal');
+}
+
 document.addEventListener('DOMContentLoaded', function (_e) {
   // stagger speaker tiles
   attachDynamicStyles(positionSpeakers);
+
+  // schedule item click handler
+  document
+    .querySelectorAll('.schedule__wrapper .schedule-list .event')
+    .forEach(function (node) {
+      node.addEventListener('click', injectModal);
+    });
+
+  // modal click handler
+  document.getElementById('modal__wrapper').addEventListener('click', function(e) {
+    if (this === e.target) closeModal();
+  });
 });
 
 window.addEventListener('resize', function (_e) {
