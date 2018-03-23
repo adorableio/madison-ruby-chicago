@@ -57,6 +57,18 @@ function closeModal(_e) {
   document.getElementsByTagName('body')[0].classList.remove('show-modal');
 }
 
+function resizeVideos() {
+  var width = document
+    .querySelector('.videos__wrapper .videos')
+    .getBoundingClientRect()
+    .width;
+
+  document.querySelectorAll('.videos__wrapper .video iframe').forEach(function (iframe) {
+    iframe.setAttribute('height', width * iframe.getAttribute('height') / iframe.getAttribute('width'));
+    iframe.setAttribute('width', width);
+  });
+}
+
 document.addEventListener('DOMContentLoaded', function (_e) {
   // stagger speaker tiles
   attachDynamicStyles(positionSpeakers);
@@ -72,9 +84,15 @@ document.addEventListener('DOMContentLoaded', function (_e) {
   document.getElementById('modal__wrapper').addEventListener('click', function(e) {
     if (this === e.target) closeModal();
   });
+
+  // resize videos
+  resizeVideos();
 });
 
 window.addEventListener('resize', function (_e) {
   // re-stagger speaker tiles
   attachDynamicStyles(positionSpeakers);
+
+  // resize videos
+  resizeVideos();
 });
