@@ -64,26 +64,31 @@ function resizeVideos() {
     .width;
 
   document.querySelectorAll('.videos__wrapper .video iframe').forEach(function (iframe) {
-    iframe.setAttribute('height', width * iframe.getAttribute('height') / iframe.getAttribute('width'));
+    iframe.setAttribute(
+      'height', width * iframe.getAttribute('height') / iframe.getAttribute('width'));
     iframe.setAttribute('width', width);
   });
 }
 
 document.addEventListener('DOMContentLoaded', function (_e) {
   // stagger speaker tiles
-  attachDynamicStyles(positionSpeakers);
+  // attachDynamicStyles(positionSpeakers);
 
   // schedule item click handler
+  /*
   document
     .querySelectorAll('.schedule__wrapper .schedule-list .event')
     .forEach(function (node) {
       node.addEventListener('click', injectModal);
     });
+  */
 
   // modal click handler
+  /*
   document.getElementById('modal__wrapper').addEventListener('click', function(e) {
     if (this === e.target) closeModal();
   });
+  */
 
   // resize videos
   resizeVideos();
@@ -91,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function (_e) {
 
 window.addEventListener('resize', function (_e) {
   // re-stagger speaker tiles
-  attachDynamicStyles(positionSpeakers);
+  // attachDynamicStyles(positionSpeakers);
 
   // resize videos
   resizeVideos();
