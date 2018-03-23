@@ -589,27 +589,35 @@ strong {
     background-size: contain;
     padding: 4rem 8rem;
 
-    .sponsor-content {
+    .sponsor-content h6 {
+      color: $black;
+      font-size: 0.9em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
 
-      h6 {
-        color: $black;
-        font-size: 0.9em;
-        text-transform: uppercase;
-        margin-bottom: 1rem;
-      }
+    .sponsors {
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: flex-start;
+      flex-flow: row wrap;
 
-      .sponsors {
+      img {
         margin-bottom: 2rem;
-        display: flex;
-        justify-content: flex-start;
-        flex-flow: row wrap;
-
-        img {
-          margin-bottom: 1rem;
-          margin-right: 1rem;
-        }
-
+        margin-right: 2rem;
       }
+    }
+
+    .level-1 img {
+      height: 6rem;
+    }
+
+    .level-2 img {
+      height: 4rem;
+    }
+
+    .level-3 img {
+      height: 3rem;
     }
   }
 
