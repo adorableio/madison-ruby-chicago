@@ -182,7 +182,6 @@ a {
   fill: $white;
   transition: all 1s ease;
 
-  &:focus,
   &:hover {
     background-color: $red;
     color: $white;
@@ -628,9 +627,22 @@ strong {
       justify-content: flex-start;
       flex-flow: row wrap;
 
-      img {
-        margin-bottom: 2rem;
-        margin-right: 2rem;
+      h6 {
+        font-weight: bold;
+        font-size: 1rem;
+      }
+
+      a {
+        img {
+          opacity: 0.7;
+          margin-bottom: 2rem;
+          margin-right: 2rem;
+        }
+
+        &:hover {
+          background: unset;
+          img { opacity: 1; }
+        }
       }
     }
 
@@ -679,7 +691,11 @@ strong {
       margin: 1rem 1rem 4rem 1rem;
       position: relative;
 
-      iframe { display: block; }
+      iframe {
+        display: block;
+        height: 315px;
+        width: 560px;
+      }
     }
 
     .videos {
