@@ -1,0 +1,45 @@
+<%
+  speaker = locals["speaker"]
+  description = locals["description"]
+  location = locals["location"]
+%>
+
+<li
+  class="event <%= tags&.join(" ") %>"
+  style="<%= "grid-row-start: #{((startTime - min) / block + 2).to_i}; grid-row-end: span #{((endTime - startTime) / block).to_i}" %>"
+>
+  <h6><%= startTime.strftime("%-l:%M%P") %></h6>
+  <h4><%= title %></h4>
+  <% unless speaker.nil? %>
+  <h5><%= speaker %></h5>
+  <% end %>
+
+  <section class="modal-content">
+    <h3><%= title %></h3>
+    <p class="time">
+      <%= startTime.strftime("<strong>%-l:%M%P") %> &ndash; <%= endTime.strftime("%-l:%M%P</strong> %A %-d %B") %>
+    </p>
+    <% unless speaker.nil? %>
+    <h4><%= speaker %></h4>
+    <% end %>
+    <% unless description.nil? %>
+    <p><%= description %></p>
+    <% end %>
+    <div class="tags">
+
+      <% tags.each do |t| %>
+      <span class="<%= t %>"></span>
+      <% end %>
+
+    </div>
+    <% unless location.nil? %>
+    <p class="location">
+      <%= partial "images/pin", locals: { className: "icon" } %>
+      <%= location %>
+    </p>
+    <% end %>
+    <a class="close" title="close">
+      <%= partial "images/close" %>
+    </a>
+  </section>
+</li>
