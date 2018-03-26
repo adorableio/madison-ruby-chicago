@@ -1,0 +1,33 @@
+<div class="schedule__wrapper">
+  <h2 class="section-title">Schedule</h2>
+  <div class="schedule-content">
+
+    <% data.schedule.each do |day| %>
+    <%
+      @min = day.events.collect {|v| v.startTime }.min
+      @max = day.events.collect {|v| v.endTime }.max
+      @block = day.block * 60
+      @range = (@min.to_i...@max.to_i).step(@block)
+    %>
+    <ul class="schedule-list" style="grid-template-rows: auto <%=
+      @range.reduce("") do |memo, obj|
+        tags = day.events
+          .select {|event| (event.startTime.to_i...event.endTime.to_i).cover? obj }
+          .collect {|event| event.tags }
+          .flatten
+          .uniq
+        "#{memo} #{tags.include?("talk") ? "1fr" : tags.include?("break") ? "0.5fr" : "auto"}"
+      end
+    %>">
+      <h3><%= day.date.strftime("%A %-d %B") %></h3>
+
+      <% day.events.each do |event| %>
+      <%= partial "partials/event", locals: { min: @min, block: @block }.merge!(event) %>
+      <% end %>
+
+    </ul>
+    <% end %>
+
+  </div>
+</div>
+<div id="modal__wrapper"></div>
