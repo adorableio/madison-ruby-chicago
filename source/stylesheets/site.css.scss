@@ -616,7 +616,7 @@ strong {
 
     .sponsor-content h6 {
       color: $black;
-      font-size: 0.9em;
+      font-size: 1em;
       text-transform: uppercase;
       margin-bottom: 1rem;
     }
@@ -646,9 +646,9 @@ strong {
       }
     }
 
-    .level-1 img { height: 6rem; }
+    .level-1 img { height: 5rem; }
 
-    .level-2 img { height: 4rem; }
+    .level-2 img { height: 3.5rem; }
 
     .level-3 img { height: 3rem; }
 
@@ -675,6 +675,99 @@ strong {
     background-color:  rgba(49, 15, 20, 0.9);
     width: 100%;
     padding: 4rem 8rem;
+
+     img {
+       height: 6rem;
+       margin-right: 2rem;
+       align-self: center;
+     }
+
+     .venue-hotel {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       margin-top: 3rem;
+       border-bottom: 2px solid $red;
+       margin-bottom: 5rem;
+
+       .image-details {
+         display: flex;
+         flex-direction: row;
+       }
+     }
+
+     .venue-container,
+     .hotel-container {
+       flex: 1;
+       padding-right: 2rem;
+     }
+
+     .venue-container,
+     .hotel-container,
+     .afterParty__wrapper {
+       margin-bottom: 4rem;
+
+     }
+
+     h3 {
+       color: $red;
+       font-size: 1em;
+       letter-spacing: 0.2em;
+       text-transform: uppercase;
+       margin-bottom: 1rem;
+       margin-top: 1rem;
+     }
+
+     h4 {
+       margin-bottom: 0.8rem;
+       font-family: "Selima", sans-serif;
+       a {
+         text-decoration: none;
+         font-size: 3em;
+         background-color: transparent;
+         &:hover {
+           color: $red;
+         }
+       }
+     }
+
+     h5 {
+       margin-bottom: 2rem;
+       a {
+         text-decoration: none;
+         font-size: 1em;
+         background-color: transparent;
+         &:hover {
+           color: $red;
+         }
+       }
+     }
+
+     h6 {
+       color: $pink;
+       text-transform: uppercase;
+       margin-bottom: 0.5rem;
+     }
+
+     p {
+       color: $pink;
+       line-height: 1.8em;
+       margin-bottom: 1.5rem;
+       font-size: 0.9em;
+     }
+
+     .register {
+       border-radius: 2rem;
+       border: 0.1rem solid $white;
+       display: block;
+       letter-spacing: 0.2rem;
+       padding: 0.5rem 2rem;
+       text-decoration: none;
+       text-transform: uppercase;
+       text-align: center;
+
+       &:hover { border: 0.1rem solid $red; }
+     }
   }
 
   .videos__wrapper{
