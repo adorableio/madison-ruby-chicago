@@ -3,12 +3,6 @@
   block: 15
   events:
     -
-      title: Set up
-      startTime: 2018-05-10T7:30:00-05:00
-      endTime: 2018-05-10T8:00:00-05:00
-      tags: [info]
-      location: Newberry Library, 60 W Walton St, Chicago IL 60610
-    -
       title: Check in
       startTime: 2018-05-10T8:00:00-05:00
       endTime: 2018-05-10T9:00:00-05:00
@@ -67,12 +61,6 @@
       endTime: 2018-05-10T13:00:00-05:00
       tags: [break]
       description: Lorem ipsum dolor est
-    -
-      title: Speaker set up
-      startTime: 2018-05-10T13:00:00-05:00
-      endTime: 2018-05-10T13:15:00-05:00
-      tags: [info]
-      location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #5'
       speaker: TBD
@@ -135,17 +123,6 @@
       tags: [talk, emcee]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
-    -
-      title: Clean up
-      startTime: 2018-05-10T17:00:00-05:00
-      endTime: 2018-05-10T17:30:00-05:00
-      tags: [info]
-      location: Newberry Library, 60 W Walton St, Chicago IL 60610
-    -
-      title: Closed
-      startTime: 2018-05-10T17:30:00-05:00
-      endTime: 2018-05-10T17:45:00-05:00
-      tags: [info]
     -
       title: After party
       startTime: 2018-05-10T19:00:00-05:00
@@ -221,12 +198,6 @@
       tags: [break]
       description: Lorem ipsum dolor est
     -
-      title: Speaker set up
-      startTime: 2018-05-11T13:00:00-05:00
-      endTime: 2018-05-11T13:15:00-05:00
-      tags: [info]
-      location: Newberry Library, 60 W Walton St, Chicago IL 60610
-    -
       title: 'Talk #5'
       speaker: TBD
       startTime: 2018-05-11T13:15:00-05:00
@@ -287,14 +258,4 @@
       tags: [talk, emcee]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
-    -
-      title: Clean up
-      startTime: 2018-05-11T17:00:00-05:00
-      endTime: 2018-05-11T17:30:00-05:00
-      tags: [info]
-      location: Newberry Library, 60 W Walton St, Chicago IL 60610
-    -
-      title: Closed
-      startTime: 2018-05-11T17:30:00-05:00
-      endTime: 2018-05-11T17:45:00-05:00
-      tags: [info]
+    
