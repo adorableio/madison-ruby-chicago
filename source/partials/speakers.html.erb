@@ -1,14 +1,19 @@
 <div class="speaker__wrapper">
   <h2 class="section-title">Speakers</h2>
   <ul class="speaker-list">
-    <% 20.times do |num| %>
-    <li class="speaker">
-      <img src='http://via.placeholder.com/250x333' />
-      <div class="speaker-content">
-        <h3>Name Namelanins</h3>
-        <h4>Talk Title talk title talk Title Talk Title talk</h4>
-      </div>
-    </li>
+
+    <% data.speakers.speakers.each do |speaker| %>
+      <li class="speaker">
+        <img src="<%= speaker.image %>" />
+        <div class="speaker-content">
+          <h3><%= speaker.name %></h3>
+          <h4><%= speaker.talk %></h4>
+          <a href="<%= speaker.twitter %>" target="_blank">
+            <%= partial "images/twitter" %>
+          </a>
+        </div>
+      </li>
     <% end %>
+
   </ul>
 </div>
