@@ -1,0 +1,85 @@
+{
+  "speakers": [
+    {
+      "image": "/images/martinatkins.jpg",
+      "name": "Martin Atkins",
+      "twitter": "https://www.twitter.com/marteeeen",
+      "talk": "Who Moved My Cocaine"
+    },{
+      "image": "/images/stephaniemorillo.jpg",
+      "name": "Stephanie Morillo",
+      "twitter": "https://www.twitter.com/radiomorillo",
+      "talk": "How Content Strategy Can Help Improve Open Source Documentation"
+    },{
+      "image": "/images/abott.jpg",
+      "name": "Betsy Haibel",
+      "twitter": "https://www.twitter.com/betsythemuffin",
+      "talk": "Set Design: Putting the \"Art\" in \"Architecture\""
+    },{
+      "image": "/images/noelrappin.jpg",
+      "name": "Noel Rappin",
+      "twitter": "https://www.twitter.com/noelrap",
+      "talk": "The Goal of Having Goals: Help Your Employees Grow"
+    },{
+      "image": "/images/shayhowe.jpg",
+      "name": "Shay Howe",
+      "twitter": "https://www.twitter.com/shayhowe",
+      "talk": "CSS as a Service: Maintaining Style"
+    },{
+      "image": "/images/megantiu.jpg",
+      "name": "Megan Tiu",
+      "twitter": "https://www.twitter.com/megantiu",
+      "talk": "The Practical Guide to Building an Apprenticeship"
+    },{
+      "image": "/images/hilarysthoskrause.jpg",
+      "name": "Hilary Stohs-Krause",
+      "twitter": "https://www.twitter.com/hilarysk",
+      "talk": "Beer, bylines and booleans: How the service sector and liberal arts can secretly prepare folks for tech careers"
+    },{
+      "image": "/images/davystevenson.jpg",
+      "name": "Davy Stevenson",
+      "twitter": "https://www.twitter.com/davystevenson",
+      "talk": "Orders of Magnitude"
+    },{
+      "image": "/images/tonyvincent.jpg",
+      "name": "Tony Vincent T.Y",
+      "twitter": "https://www.twitter.com/TonyThayil",
+      "talk": "Ruby for pentesters"
+    },{
+      "image": "/images/mercedesbernard.jpg",
+      "name": "Mercedes Bernard",
+      "twitter": "",
+      "talk": "Writing a Crochet Pattern is like Writing Code"
+    },{
+      "image": "/images/louisabarrett.jpg",
+      "name": "Louisa Barrett",
+      "twitter": "https://www.twitter.com/weesie_b",
+      "talk": "Ruby not Red: Color Theory for the Rest of Us"
+    },{
+      "image": "/images/kylecrum.jpg",
+      "name": "Kyle Crum",
+      "twitter": "https://www.twitter.com/kylecrum",
+      "talk": "This one weird trick will 10x your company's valuation"
+    },{
+      "image": "/images/gonzalomaldonado.jpg",
+      "name": "Gonzalo Maldonado",
+      "twitter": "https://www.twitter.com/elg0nz",
+      "talk": "Webpack or the Asset pipeline? Why not both!"
+    },{
+      "image": "/images/adamcuppy.jpg",
+      "name": "Adam Cuppy",
+      "twitter": "https://www.twitter.com/adamcuppy",
+      "talk": "Difficult Conversations"
+    },{
+      "image": "/images/coralineadaehmke.jpg",
+      "name": "Coraline Ada Ehmke",
+      "twitter": "https://www.twitter.com/CoralineAda",
+      "talk": "Metaphors Are Similes. Similes Are Like Metaphors."
+    },{
+      "image": "/images/aaronkalin.jpg",
+      "name": "Aaron Kalin",
+      "twitter": "https://www.twitter.com/martinisoft",
+      "talk": "Anatomy of a Distributed Denial of Service attack"
+    }
+  ]
+}

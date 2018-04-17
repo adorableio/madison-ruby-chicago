@@ -396,7 +396,7 @@ strong {
       align-self: center;
       animation: bounce 1s infinite alternate;
       height: 20vh;
-      margin-top: 2rem;
+      margin-bottom: 2rem;
       max-height: 6rem;
     }
 
@@ -487,22 +487,19 @@ strong {
   .speaker__wrapper {
     background-color:  rgba(49, 15, 20, 0.9);
     padding: 8rem;
-    width: 100%;
 
     h2 {
       color: $red;
     }
 
     .speaker-list {
-      display: grid;
-      grid-auto-flow: row;
-      grid-row-gap: 8rem;
-      justify-content: space-around;
-      margin: 2rem -1rem 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: row;
 
       .speaker {
         border-left: 2px solid $blue;
-        margin: 0 1rem;
+        margin: 2.5rem 1rem;
         max-width: 250px;
         text-align: left;
 
@@ -523,7 +520,12 @@ strong {
 
           h4 {
             color: $pink;
-            line-height: 1.2em;
+            line-height: 1.5em;
+            margin-bottom: 1rem;
+          }
+
+          a:hover {
+            background-color: transparent;
           }
         }
       }
