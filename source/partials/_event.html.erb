@@ -6,7 +6,6 @@
 
 <li
   class="event <%= tags&.join(" ") %>"
-  style="<%= "grid-row-start: #{((startTime - min) / block + 2).to_i}; grid-row-end: span #{((endTime - startTime) / block).to_i}" %>"
 >
   <h6><%= startTime.strftime("%-l:%M%P") %></h6>
   <h4><%= title %></h4>

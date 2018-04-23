@@ -18,16 +18,16 @@
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
-      title: 'Talk #1'
-      speaker: TBD
+      title: 'Metaphors Are Similes. Similes Are Like Metaphors.'
+      speaker: Coraline Ada Ehmke
       startTime: 2018-05-10T9:15:00-05:00
       endTime: 2018-05-10T9:45:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
-      title: 'Talk #2'
-      speaker: TBD
+      title: 'The Goal of Having Goals: Help Your Employees Grow'
+      speaker: Noel Rappin
       startTime: 2018-05-10T9:45:00-05:00
       endTime: 2018-05-10T10:15:00-05:00
       tags: [talk, guest]
@@ -40,16 +40,16 @@
       tags: [break]
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
-      title: 'Talk #3'
-      speaker: TBD
+      title: 'Difficult Conversations'
+      speaker: Adam Cuppy
       startTime: 2018-05-10T10:45:00-05:00
       endTime: 2018-05-10T11:15:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
-      title: 'Talk #4'
-      speaker: TBD
+      title: 'Orders of Magnitude'
+      speaker: Davy Stevenson
       startTime: 2018-05-10T11:15:00-05:00
       endTime: 2018-05-10T11:45:00-05:00
       tags: [talk, guest]
@@ -70,8 +70,8 @@
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
-      title: 'Talk #6'
-      speaker: TBD
+      title: 'CSS as a Service: Maintaining Style'
+      speaker: Shay Howe
       startTime: 2018-05-10T13:45:00-05:00
       endTime: 2018-05-10T14:15:00-05:00
       tags: [talk, guest]
@@ -85,16 +85,16 @@
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
-      title: 'Talk #7'
-      speaker: TBD
+      title: 'This one weird trick will 10x your company&#39;s'
+      speaker: Kyle Crum
       startTime: 2018-05-10T14:45:00-05:00
       endTime: 2018-05-10T15:15:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
-      title: 'Talk #8'
-      speaker: TBD
+      title: 'Writing a Crochet Pattern is like Writing Code'
+      speaker: Mercedes Bernard
       startTime: 2018-05-10T15:15:00-05:00
       endTime: 2018-05-10T15:45:00-05:00
       tags: [talk, guest]
@@ -108,8 +108,8 @@
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
-      title: 'Talk #9'
-      speaker: TBD
+      title: 'Who Moved my Blueberry Muffins'
+      speaker: Martin Atkins
       startTime: 2018-05-10T16:15:00-05:00
       endTime: 2018-05-10T16:45:00-05:00
       tags: [talk, guest]
@@ -154,16 +154,16 @@
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
-      title: 'Talk #1'
-      speaker: TBD
+      title: 'Anatomy of a Distributed Denial of Service attack'
+      speaker: Aaron Kalin
       startTime: 2018-05-11T09:15:00-05:00
       endTime: 2018-05-11T09:45:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
-      title: 'Talk #2'
-      speaker: TBD
+      title: 'Set Design: Putting the "Art" in "Architecture"'
+      speaker: Betsy Haibel
       startTime: 2018-05-11T09:45:00-05:00
       endTime: 2018-05-11T10:15:00-05:00
       tags: [talk, guest]
@@ -176,16 +176,16 @@
       tags: [break]
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
-      title: 'Talk #3'
-      speaker: TBD
+      title: 'Ruby not Red: Color Theory for the Rest of Us'
+      speaker: Louisa Barrett
       startTime: 2018-05-11T10:45:00-05:00
       endTime: 2018-05-11T11:15:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
-      title: 'Talk #4'
-      speaker: TBD
+      title: 'Webpack or the Asset pipeline? Why not both!'
+      speaker: Gonzalo Maldonado
       startTime: 2018-05-11T11:15:00-05:00
       endTime: 2018-05-11T11:45:00-05:00
       tags: [talk, guest]
@@ -198,16 +198,16 @@
       tags: [break]
       description: Lorem ipsum dolor est
     -
-      title: 'Talk #5'
-      speaker: TBD
+      title: 'Beer, bylines and booleans: How the service sector and liberal arts can secretly prepare folks for tech careers'
+      speaker: Hilary Stohs-Krause
       startTime: 2018-05-11T13:15:00-05:00
       endTime: 2018-05-11T13:45:00-05:00
       tags: [talk, guest]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
-      title: 'Talk #6'
-      speaker: TBD
+      title: 'The Practical Guide to Building an Apprenticeship'
+      speaker: Megan Tiu
       startTime: 2018-05-11T13:45:00-05:00
       endTime: 2018-05-11T14:15:00-05:00
       tags: [talk, guest]
@@ -220,8 +220,8 @@
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
-      title: 'Talk #7'
-      speaker: TBD
+      title: 'Ruby for Pentesters'
+      speaker: Tony Vincent T.Y
       startTime: 2018-05-11T14:45:00-05:00
       endTime: 2018-05-11T15:15:00-05:00
       tags: [talk, guest]
@@ -244,7 +244,7 @@
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #9'
-      speaker: TBD
+      speaker: Leon Gersing
       startTime: 2018-05-11T16:15:00-05:00
       endTime: 2018-05-11T16:45:00-05:00
       tags: [talk, guest]
@@ -258,4 +258,3 @@
       tags: [talk, emcee]
       description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
-    
