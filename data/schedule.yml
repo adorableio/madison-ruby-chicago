@@ -5,20 +5,20 @@
     -
       title: Check in
       startTime: 2018-05-10T8:00:00-05:00
-      endTime: 2018-05-10T9:00:00-05:00
+      endTime: 2018-05-10T8:45:00-05:00
       tags: [info]
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Welcome
       speaker: TBD
-      startTime: 2018-05-10T9:00:00-05:00
-      endTime: 2018-05-10T9:15:00-05:00
+      startTime: 2018-05-10T8:45:00-05:00
+      endTime: 2018-05-10T9:00:00-05:00
       tags: [talk, emcee]
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Metaphors Are Similes. Similes Are Like Metaphors.'
       speaker: Coraline Ada Ehmke
-      startTime: 2018-05-10T9:15:00-05:00
+      startTime: 2018-05-10T9:00:00-05:00
       endTime: 2018-05-10T9:45:00-05:00
       tags: [talk, guest]
       description: 'This talk explores linguistic theory and how it relates to
@@ -107,14 +107,14 @@
     -
       title: Snack break
       startTime: 2018-05-10T14:15:00-05:00
-      endTime: 2018-05-10T14:45:00-05:00
+      endTime: 2018-05-10T14:30:00-05:00
       tags: [break, snack]
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'This one weird trick will 10x your company&#39;s'
       speaker: Kyle Crum
-      startTime: 2018-05-10T14:45:00-05:00
-      endTime: 2018-05-10T15:15:00-05:00
+      startTime: 2018-05-10T14:30:00-05:00
+      endTime: 2018-05-10T15:00:00-05:00
       tags: [talk, guest]
       description: 'Do you love the blockchain? Everyone loves the blockchain!
       Just saying it lends tech cred and tells everyone in the room that you are
@@ -130,7 +130,7 @@
       title: 'Writing a Crochet Pattern is like Writing Code'
       speaker: Mercedes Bernard
       startTime: 2018-05-10T15:15:00-05:00
-      endTime: 2018-05-10T15:45:00-05:00
+      endTime: 2018-05-10T15:30:00-05:00
       tags: [talk, guest]
       description: 'We all have hobbies we like to do when we leave the office,
       but that doesn&#39;t mean we have to shut down our programmer minds at the
@@ -147,14 +147,14 @@
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Snack break
-      startTime: 2018-05-10T15:45:00-05:00
-      endTime: 2018-05-10T16:15:00-05:00
+      startTime: 2018-05-10T15:30:00-05:00
+      endTime: 2018-05-10T16:45:00-05:00
       tags: [break, snack]
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Who Moved my Blueberry Muffins'
       speaker: Martin Atkins
-      startTime: 2018-05-10T16:15:00-05:00
+      startTime: 2018-05-10T16:00:00-05:00
       endTime: 2018-05-10T16:45:00-05:00
       tags: [talk, guest]
       description:
@@ -360,5 +360,4 @@
       startTime: 2018-05-11T16:45:00-05:00
       endTime: 2018-05-11T17:00:00-05:00
       tags: [talk, emcee]
-      description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
