@@ -10,10 +10,10 @@
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Welcome
-      speaker: TBD
+      speaker:
       startTime: 2018-05-10T8:45:00-05:00
       endTime: 2018-05-10T9:00:00-05:00
-      tags: [talk, emcee]
+      tags: [emcee]
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Metaphors Are Similes. Similes Are Like Metaphors.'
@@ -348,7 +348,7 @@
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #9'
-      speaker: Leon Gersing
+      speaker: TBD
       startTime: 2018-05-11T16:15:00-05:00
       endTime: 2018-05-11T16:45:00-05:00
       tags: [talk, guest]
@@ -356,8 +356,8 @@
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Closing announcements
-      speaker: TBD
+      speaker:
       startTime: 2018-05-11T16:45:00-05:00
       endTime: 2018-05-11T17:00:00-05:00
-      tags: [talk, emcee]
+      tags: [emcee]
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
