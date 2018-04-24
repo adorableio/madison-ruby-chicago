@@ -223,8 +223,8 @@ strong {
     padding: 4rem;
     position: relative;
 
-    h4, p { margin-top: 0.5em; }
-
+    h4, p { margin: 1em 0; }
+    p {line-height: 1.7em;}
     h3 { font-size: 2rem; }
     h4 {
       font-family: 'Metropolis-bold', sans-serif;
@@ -292,11 +292,6 @@ strong {
         background-color: $blue;
         &:after { content: 'talk'; }
       }
-    }
-
-    .time {
-      background-color: rgba($black, 0.125);
-      padding: 0.25rem 0.5rem;
     }
   }
 }
@@ -567,7 +562,7 @@ strong {
         background-color: $white;
         box-shadow: 0 2px 10px 0 #ddd;
         list-style-type: none;
-        margin-bottom: 0.4rem;
+        margin-bottom: 0.2rem;
         padding: 1rem 1.2rem;
 
         &.break, &.social { border-left: 3px solid $red; }

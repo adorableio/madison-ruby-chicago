@@ -7,7 +7,6 @@
       startTime: 2018-05-10T8:00:00-05:00
       endTime: 2018-05-10T9:00:00-05:00
       tags: [info]
-      description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Welcome
@@ -15,7 +14,6 @@
       startTime: 2018-05-10T9:00:00-05:00
       endTime: 2018-05-10T9:15:00-05:00
       tags: [talk, emcee]
-      description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Metaphors Are Similes. Similes Are Like Metaphors.'
@@ -23,7 +21,13 @@
       startTime: 2018-05-10T9:15:00-05:00
       endTime: 2018-05-10T9:45:00-05:00
       tags: [talk, guest]
-      description: Lorem ipsum dolor est
+      description: 'This talk explores linguistic theory and how it relates to
+      a model of human thought based around spoken language.Inspired in part by
+      recent writing by Douglas Hofstadter, I make the case that the core
+      mechanism of our thinking relates very closely to our ability to make
+      metaphors and categorize experiences. I connect these two concepts to make
+      the case that with a broader vocabulary of metaphors, we can become better
+      problem solvers. Oh, and I dip into category theory a bit as well. :)'
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'The Goal of Having Goals: Help Your Employees Grow'
@@ -31,7 +35,13 @@
       startTime: 2018-05-10T9:45:00-05:00
       endTime: 2018-05-10T10:15:00-05:00
       tags: [talk, guest]
-      description: Lorem ipsum dolor est
+      description: 'The pitch here is really simple. Having a structure where
+      developers feel supported makes them happier, and less likely to leave.
+      Retention and training is much cheaper than hiring and on-boarding and
+      leads to a better work place. We think we have a lightweight structure
+      for supporting developer growth and we think it will be effective for a
+      variety of small developer teams.
+      All it takes is three people, some sharpies, and some sticky notes...'
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Break
@@ -45,7 +55,16 @@
       startTime: 2018-05-10T10:45:00-05:00
       endTime: 2018-05-10T11:15:00-05:00
       tags: [talk, guest]
-      description: Lorem ipsum dolor est
+      description: 'This talk is not an instructional guide on how to ‘handle’
+      people; nor is it about ‘taking your power’ and reinforcing the notion
+      that “shitty people exist... and don’t let them affect you.”
+      This talk is about the true-to-form psychology of human need (which can
+      both inspire empathy and drives adversity).
+
+      This talk is practical and will be interactive. To engage both kinesthetic,
+      auditory and visual learners (which is part of the lesson), each section
+      uses a combination of live-action, recorded video presentation, or
+      short/simple written exercise. You’ll be on your feet - literally :)'
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Orders of Magnitude'
@@ -53,14 +72,19 @@
       startTime: 2018-05-10T11:15:00-05:00
       endTime: 2018-05-10T11:45:00-05:00
       tags: [talk, guest]
-      description: Lorem ipsum dolor est
+      description: 'Up until the 17th century, the world was mostly limited to
+      what we could see with the naked eye. Our understanding of things much
+      smaller and much larger than us was limited. In the past 400 years our
+      worldview has increased enormously, which has led to the advent of
+      technology, space exploration, computers and the internet. However, our
+      brains are ill equipped to handle dealing with numbers at these scales,
+      and attempt to trick us at every turn.'
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Lunch
       startTime: 2018-05-10T11:45:00-05:00
       endTime: 2018-05-10T13:00:00-05:00
       tags: [break]
-      description: Lorem ipsum dolor est
     -
       title: 'Talk #5'
       speaker: TBD
@@ -75,14 +99,16 @@
       startTime: 2018-05-10T13:45:00-05:00
       endTime: 2018-05-10T14:15:00-05:00
       tags: [talk, guest]
-      description: Lorem ipsum dolor est
+      description: 'We often build multiple websites and applications that share
+      the same styles across multiple code bases (style guides/pattern libraries).
+      Maintaining these styles becomes quite a task, and causes increasing
+      frustration overtime. Fortunately it doesn’t have to be this way.'
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Snack break
       startTime: 2018-05-10T14:15:00-05:00
       endTime: 2018-05-10T14:45:00-05:00
       tags: [break, snack]
-      description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'This one weird trick will 10x your company&#39;s'
@@ -90,7 +116,15 @@
       startTime: 2018-05-10T14:45:00-05:00
       endTime: 2018-05-10T15:15:00-05:00
       tags: [talk, guest]
-      description: Lorem ipsum dolor est
+      description: 'Do you love the blockchain? Everyone loves the blockchain!
+      Just saying it lends tech cred and tells everyone in the room that you are
+      hip with the technologies. Blockchain. Blockchain. Crypto. Blockchain.
+      According to the "internet" I can use blockchains for such things as
+      registering my band&#39;s name to publishing digital photos
+      Here&#39;s the dirty secret though, despite all of the jargon around it,
+      it&#39;s pretty simple to understand. In just 30 minutes and I&#39;ll even show
+      you how to write one with Ruby and prove that you&#39;ve probably been using
+      a blockchain everyday without knowing.'
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Writing a Crochet Pattern is like Writing Code'
@@ -98,14 +132,24 @@
       startTime: 2018-05-10T15:15:00-05:00
       endTime: 2018-05-10T15:45:00-05:00
       tags: [talk, guest]
-      description: Lorem ipsum dolor est
+      description: 'We all have hobbies we like to do when we leave the office,
+      but that doesn&#39;t mean we have to shut down our programmer minds at the
+      end of the day. I love to crochet in my spare time and in many cases, the
+      approach to crafting is the same as coding. You wouldn&#39;t believe how
+      similar writing a crochet pattern is to writing code. There are hardware
+      requirements, different languages, loops, methods, and modeling diagrams.
+
+      In this talk, I&#39;ll show how reading and writing crochet patterns uses
+      many of the same fundamental principles as coding, complete with Ruby code
+      samples and personal crochet samples. You will walk away thinking about
+      coding principles and their applications beyond your screen. You might
+      even become interested in learning to crochet!'
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Snack break
       startTime: 2018-05-10T15:45:00-05:00
       endTime: 2018-05-10T16:15:00-05:00
       tags: [break, snack]
-      description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Who Moved my Blueberry Muffins'
@@ -113,7 +157,7 @@
       startTime: 2018-05-10T16:15:00-05:00
       endTime: 2018-05-10T16:45:00-05:00
       tags: [talk, guest]
-      description: Lorem ipsum dolor est
+      description:
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: End of day announcements
@@ -121,7 +165,6 @@
       startTime: 2018-05-10T16:45:00-05:00
       endTime: 2018-05-10T17:00:00-05:00
       tags: [talk, emcee]
-      description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: After party
@@ -144,14 +187,12 @@
       startTime: 2018-05-11T08:30:00-05:00
       endTime: 2018-05-11T09:00:00-05:00
       tags: [info]
-      description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Start of day
       startTime: 2018-05-11T09:00:00-05:00
       endTime: 2018-05-11T09:15:00-05:00
       tags: [info]
-      description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Anatomy of a Distributed Denial of Service attack'
@@ -159,7 +200,15 @@
       startTime: 2018-05-11T09:15:00-05:00
       endTime: 2018-05-11T09:45:00-05:00
       tags: [talk, guest]
-      description: Lorem ipsum dolor est
+      description: 'Denial of Service attacks happen almost daily in varying
+      shapes and sizes. The most recent, largest attack in history on github
+      was a whopping 1.3 TERABITS per second. You don&#39;t always get the details
+      of how and why these attacks occur along with methods of mitigation.
+      You&#39;ll hear the backstory of such an attack from a victim of the "Cyber
+      Monday" attacks which brought down DNS for rubygems and broke everyone&#39;s
+      gem install command (still sorry about that). You&#39;ll hear details of how
+      it happened, why it happened, and what they are doing to protect
+      themselves the next time it happens so you can too.'
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Set Design: Putting the "Art" in "Architecture"'
@@ -167,7 +216,15 @@
       startTime: 2018-05-11T09:45:00-05:00
       endTime: 2018-05-11T10:15:00-05:00
       tags: [talk, guest]
-      description: Lorem ipsum dolor est
+      description: 'We need new metaphors. We need metaphors that better respect
+      the intelligence and creativity of every member of a software team.
+      Theater stands out as a potential model especially the "technical" aspects,
+      like set design. I used to work as a
+      set designer and scenic artist. Like in software, working in theater
+      means constantly juggling major technical, cost, and time tradeoffs to
+      create the best end product possible and like software, working in
+      theater is all about doing one&#39;s own part in a way that sets everyone
+      else up for success.'
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Break
@@ -181,7 +238,25 @@
       startTime: 2018-05-11T10:45:00-05:00
       endTime: 2018-05-11T11:15:00-05:00
       tags: [talk, guest]
-      description: Lorem ipsum dolor est
+      description: 'This talk will be broken into 5 sections:
+      1) What is Color Blindness?
+      Explain common types of color blindness. This is to increase audience
+      understanding and empathy, as well as provide context as to why this is
+      something we need to be conscious of and work to improve our efforts to
+      address it effectively.
+      2) The Color Wheel and Dangerous Color Combos
+      How to evaluate and avoid tricky color combinations, and how to make
+      better color pairing decisions.
+      3) Typography, Text, and Legibility
+      How color, contrast, and size can impact a user&#39;s ability to read text.
+      4) UX Patterns
+      Which UI trends lend themselves to accessibility, and strategies for
+      successfully adapting those that do not.
+      5) Links, Buttons, and Forms
+      Strategies for making these utilitarian elements more usable for everyone.
+      Conclusion
+      Making choices that increase visual accessibility ultimately increase how
+      usable our work and the web is for everyone.'
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Webpack or the Asset pipeline? Why not both!'
@@ -189,21 +264,36 @@
       startTime: 2018-05-11T11:15:00-05:00
       endTime: 2018-05-11T11:45:00-05:00
       tags: [talk, guest]
-      description: Lorem ipsum dolor est
+      description: 'The goal of this talk is to explain what "Thinking in
+      Components" means and to show the tradeoffs between implementing this
+      Pattern using classic Rails technologies (Haml + Sass) and new ones
+      (React + Redux). It will also cover how Webpacker is used in these
+      implementations.'
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Lunch
       startTime: 2018-05-11T11:45:00-05:00
       endTime: 2018-05-11T13:00:00-05:00
       tags: [break]
-      description: Lorem ipsum dolor est
     -
       title: 'Beer, bylines and booleans: How the service sector and liberal arts can secretly prepare folks for tech careers'
       speaker: Hilary Stohs-Krause
       startTime: 2018-05-11T13:15:00-05:00
       endTime: 2018-05-11T13:45:00-05:00
       tags: [talk, guest]
-      description: Lorem ipsum dolor est
+      description: 'More and more people are entering the tech sector without
+      tech-specific work experience, and/or with non-technical degrees (if they
+      went to college at all). While many tech giants still require or heavily
+      favor candidates with a computer science background for technical roles,
+      other companies are recognizing the value of staff with diverse
+      experiences and educational history.
+      As a journalist-bartender-turned-developer, I&#39;m constantly finding ways
+      that my “useless” liberal arts background and years spent slinging pints
+      of beer have, in fact, prepared me for a successful career in tech. For
+      those in tech with non-tech backgrounds, as well as the folks who do the
+      hiring at tech companies, we&#39;ll discuss the myriad - and often hidden -
+      skills that non-CS grads can bring to the table, and how they&#39;re broadly
+      applicable to tech-focused jobs.'
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'The Practical Guide to Building an Apprenticeship'
@@ -211,13 +301,22 @@
       startTime: 2018-05-11T13:45:00-05:00
       endTime: 2018-05-11T14:15:00-05:00
       tags: [talk, guest]
+      description: 'Currently, our industry has a surplus of bright junior
+      developers, but a lack of open junior positions. Building a developer
+      apprenticeship in your organization is a great way to provide a haven for
+      these talented devs, while simultaneously making your team more productive
+      and easing the pain of hiring.
+
+      In this talk, you&#39;ll learn from the mistakes I&#39;ve made and wins I&#39;ve had
+      in creating an apprenticeship. From pitching the idea to growing your
+      apprentices, you&#39;ll gain a step-by-step guide to successfully building
+      your own apprenticeship program.'
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Snack break
       startTime: 2018-05-11T14:15:00-05:00
       endTime: 2018-05-11T14:45:00-05:00
       tags: [break, snack]
-      description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Ruby for Pentesters'
@@ -225,7 +324,13 @@
       startTime: 2018-05-11T14:45:00-05:00
       endTime: 2018-05-11T15:15:00-05:00
       tags: [talk, guest]
-      description: Lorem ipsum dolor est
+      description: 'The aim of this talk is to demonstrate how penetration
+      testing is done right using Ruby with examples and metrics. More
+      importantly this talk answers **Why Ruby for penetration testing?**
+
+      In a nutshell, this talk is about - Why I chose Ruby for pen testing ,An
+      introduction to Metasploit, Pentesting an example Heroku app using ruby,
+      What I learned using Ruby for pen testing and gotchas and pitfalls'
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #8'
@@ -240,7 +345,6 @@
       startTime: 2018-05-11T15:45:00-05:00
       endTime: 2018-05-11T16:15:00-05:00
       tags: [break, snack]
-      description: Lorem ipsum dolor est
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'Talk #9'
