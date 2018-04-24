@@ -179,13 +179,11 @@ body {
 
 a {
   color: $white;
-  fill: $white;
   transition: all 1s ease;
 
   &:hover {
     background-color: $red;
     color: $white;
-    fill: $red;
   }
 }
 
@@ -300,6 +298,7 @@ strong {
 .main__wrapper {
   display: flex;
   flex-direction: row;
+  position: relative;
 
   .left-bar {
     align-items: center;
@@ -339,6 +338,43 @@ strong {
 
       h2 { align-self: center; }
     }
+  }
+
+  nav {
+    position: fixed;
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    right: 0.8rem;
+    top: 45%;
+
+    @media screen and (max-width: 500px ) {
+      display: none;
+    }
+
+    a {
+      margin-bottom: 0.7rem;
+      height: 15px;
+
+      &:hover {
+        border-radius: 50%;
+
+      }
+      img {
+        height: 15px;
+      }
+    }
+  }
+
+  [data-balloon]:after {
+    font-family: "Metropolis-regular", sans-serif !important;
+    font-size: 0.8rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+
+  [data-balloon][data-balloon-pos='left']:after {
+    background-color: rgba(49, 15, 20, 0.8);
   }
 
   .section-title {

@@ -2,7 +2,7 @@
 title: Madison+ Ruby:CHICAGO
 ---
 
-<div class="main__wrapper">
+<div class="main__wrapper" id="home">
 
   <div class="left-bar">
     <img src="/images/logo.svg" />
@@ -22,6 +22,16 @@ title: Madison+ Ruby:CHICAGO
       </div>
       <img class="arrow" src="/images/arrow.svg" />
     </div>
+
+    <nav>
+      <a href="#home" data-balloon="Top" data-balloon-pos="left"><img src="/images/circle.svg"/></a>
+      <a href="#speakers" data-balloon="Speakers" data-balloon-pos="left"><img src="/images/circle.svg"/></a>
+      <a href="#schedule" data-balloon="Schedule" data-balloon-pos="left"><img src="/images/circle.svg"/></a>
+      <a href="#accommodations" data-balloon="Accommodations" data-balloon-pos="left"><img src="/images/circle.svg"/></a>
+      <a href="#sponsors" data-balloon="Sponsors" data-balloon-pos="left"><img src="/images/circle.svg"/></a>
+      <a href="#videos" data-balloon="Media" data-balloon-pos="left"><img src="/images/circle.svg"/></a>
+      <a href="#footer" data-balloon="Contact" data-balloon-pos="left"><img src="/images/circle.svg"/></a>
+    </nav>
 
     <%= partial "partials/why" %>
     <%= partial "partials/speakers" %>

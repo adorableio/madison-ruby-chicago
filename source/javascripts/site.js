@@ -94,19 +94,3 @@ window.addEventListener('resize', function (_e) {
 
   resizeVideos();
 });
-
-// function (){
-//  var changeHeader = 300;
-//   window.scroll(function() {
-//     var scroll = getCurrentScroll();
-//       if ( scroll >= changeHeader ) {
-//            $('.left-bar').addClass('scrolled');
-//         }
-//         else {
-//             $('.left-bar').removeClass('scrolled');
-//         }
-//   });
-//   function getCurrentScroll() {
-//     return window.pageYOffset || document.documentElement.scrollTop;
-//   }
-// };
