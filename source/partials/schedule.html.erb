@@ -1,4 +1,4 @@
-<div class="schedule__wrapper">
+<div class="schedule__wrapper" id="schedule">
   <h2 class="section-title">Schedule</h2>
   <div class="schedule-content">
 
@@ -9,16 +9,7 @@
       @block = day.block * 60
       @range = (@min.to_i...@max.to_i).step(@block)
     %>
-    <ul class="schedule-list" style="grid-template-rows: auto <%=
-      @range.reduce("") do |memo, obj|
-        tags = day.events
-          .select {|event| (event.startTime.to_i...event.endTime.to_i).cover? obj }
-          .collect {|event| event.tags }
-          .flatten
-          .uniq
-        "#{memo} #{tags.include?("talk") ? "1fr" : tags.include?("break") ? "0.5fr" : "auto"}"
-      end
-    %>">
+    <ul class="schedule-list">
       <h3><%= day.date.strftime("%A %-d %B") %></h3>
 
       <% day.events.each do |event| %>

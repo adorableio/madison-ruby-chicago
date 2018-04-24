@@ -6,7 +6,6 @@
 
 <li
   class="event <%= tags&.join(" ") %>"
-  style="<%= "grid-row-start: #{((startTime - min) / block + 2).to_i}; grid-row-end: span #{((endTime - startTime) / block).to_i}" %>"
 >
   <h6><%= startTime.strftime("%-l:%M%P") %></h6>
   <h4><%= title %></h4>
@@ -15,10 +14,10 @@
   <% end %>
 
   <section class="modal-content">
-    <h3><%= title %></h3>
     <p class="time">
       <%= startTime.strftime("<strong>%-l:%M%P") %> &ndash; <%= endTime.strftime("%-l:%M%P</strong> %A %-d %B") %>
     </p>
+    <h3><%= title %></h3>
     <% unless speaker.nil? %>
     <h4><%= speaker %></h4>
     <% end %>

@@ -71,33 +71,26 @@ function resizeVideos() {
 }
 
 document.addEventListener('DOMContentLoaded', function (_e) {
-  // stagger speaker tiles
-  // attachDynamicStyles(positionSpeakers);
 
-  // schedule item click handler
-  /*
+  attachDynamicStyles(positionSpeakers);
+
   document
     .querySelectorAll('.schedule__wrapper .schedule-list .event')
     .forEach(function (node) {
       node.addEventListener('click', injectModal);
     });
-  */
 
-  // modal click handler
-  /*
   document.getElementById('modal__wrapper').addEventListener('click', function(e) {
     if (this === e.target) closeModal();
   });
-  */
+
 
   // resize videos
   resizeVideos();
 });
 
 window.addEventListener('resize', function (_e) {
-  // re-stagger speaker tiles
-  // attachDynamicStyles(positionSpeakers);
+  attachDynamicStyles(positionSpeakers);
 
-  // resize videos
   resizeVideos();
 });
