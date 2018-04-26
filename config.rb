@@ -25,6 +25,11 @@ activate :directory_indexes
 # Append hashes to compiled assets
 activate :asset_hash
 
+
+#Timezone
+
+config.time_zone = 'Central Time (US & Canada)'
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
