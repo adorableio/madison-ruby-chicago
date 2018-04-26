@@ -75,6 +75,11 @@
       "name": "Aaron Kalin",
       "twitter": "https://www.twitter.com/martinisoft",
       "talk": "Anatomy of a Distributed Denial of Service attack"
+    },{
+      "image": "/images/leongersing.jpg",
+      "name": "Leon Gersing",
+      "twitter": "https://www.twitter.com/rubybuddha",
+      "talk": "The Art of Growing Up"
     }
   ]
 }
