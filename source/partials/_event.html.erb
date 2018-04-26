@@ -7,7 +7,7 @@
 <li
   class="event <%= tags&.join(" ") %>"
 >
-  <h6><%= startTime.strftime("%-l:%M%P") %></h6>
+  <h6><%= startTime.strftime("%-l:%M%P %Z") %></h6>
   <h4><%= title %></h4>
   <% unless speaker.nil? %>
   <h5><%= speaker %></h5>
