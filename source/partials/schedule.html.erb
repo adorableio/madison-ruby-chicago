@@ -3,12 +3,6 @@
   <div class="schedule-content">
 
     <% data.schedule.each do |day| %>
-    <%
-      @min = day.events.collect {|v| v.startTime }.min
-      @max = day.events.collect {|v| v.endTime }.max
-      @block = day.block * 60
-      @range = (@min.to_i...@max.to_i).step(@block)
-    %>
     <ul class="schedule-list">
       <h3><%= day.date.strftime("%A %-d %B") %></h3>
 
