@@ -8,9 +8,11 @@
         <div class="speaker-content">
           <h3><%= speaker.name %></h3>
           <h4><%= speaker.talk %></h4>
-          <a href="<%= speaker.twitter %>" target="_blank">
-            <%= partial "images/twitter" %>
-          </a>
+          <% unless speaker.twitter.nil? %>
+            <a href="<%= speaker.twitter %>" target="_blank">
+              <%= partial "images/twitter" %>
+            </a>
+          <% end %>
         </div>
       </li>
     <% end %>

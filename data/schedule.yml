@@ -86,8 +86,8 @@
       endTime: 2018-05-10T13:00:00-05:00
       tags: [break]
     -
-      title: 'Talk #5'
-      speaker: TBD
+      title: 'Beyond just TDD'
+      speaker: Chris Wilson
       startTime: 2018-05-10T13:15:00-05:00
       endTime: 2018-05-10T13:45:00-05:00
       tags: [talk, guest]
@@ -161,7 +161,6 @@
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: End of day announcements
-      speaker: TBD
       startTime: 2018-05-10T16:45:00-05:00
       endTime: 2018-05-10T17:00:00-05:00
       tags: [talk, emcee]
@@ -333,24 +332,10 @@
       What I learned using Ruby for pen testing and gotchas and pitfalls'
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
-      title: 'Talk #8'
-      speaker: TBD
-      startTime: 2018-05-11T15:15:00-05:00
-      endTime: 2018-05-11T15:45:00-05:00
-      tags: [talk, guest]
-      description: Lorem ipsum dolor est
-      location: Newberry Library, 60 W Walton St, Chicago IL 60610
-    -
-      title: Snack break
-      startTime: 2018-05-11T15:45:00-05:00
-      endTime: 2018-05-11T16:15:00-05:00
-      tags: [break, snack]
-      location: Newberry Library, 60 W Walton St, Chicago IL 60610
-    -
       title: 'The Art of Growing Up'
       speaker: Leon Gersing
-      startTime: 2018-05-11T16:15:00-05:00
-      endTime: 2018-05-11T16:45:00-05:00
+      startTime: 2018-05-11T15:15:00-05:00
+      endTime: 2018-05-11T15:45:00-05:00
       tags: [talk, guest]
       description: 'There&#39;s a child in each of us that longs for the halcyon
       days of summer; dipping toes in the water off the pier, skipping stones
@@ -358,7 +343,7 @@
       yearns to run free from the responsibilities and pressures of modern life;
       that doesn&#39;t report to work at 9am and leave at 4:55pm. Who could blame
       any of us for waxing sentimental and wanting the simple carefree existence
-      of a kid? I can&#39;t and won&#39;t. I have chosen to love and support the little 
+      of a kid? I can&#39;t and won&#39;t. I have chosen to love and support the little
       child within while becoming the adult my community needs. But How? How
       does one truly “Adult”? What does it mean to grow up? What does it mean
       to be an adult in a world stuck in a state of arrested development? Join
@@ -367,8 +352,7 @@
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Closing announcements
-      speaker:
-      startTime: 2018-05-11T16:45:00-05:00
-      endTime: 2018-05-11T17:00:00-05:00
+      startTime: 2018-05-11T15:45:00-05:00
+      endTime: 2018-05-11T16:00:00-05:00
       tags: [emcee]
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
