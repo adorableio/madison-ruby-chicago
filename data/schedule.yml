@@ -91,7 +91,26 @@
       startTime: 2018-05-10T13:15:00-05:00
       endTime: 2018-05-10T13:45:00-05:00
       tags: [talk, guest]
-      description: Lorem ipsum dolor est
+      description: 'This talk is a survey of alternate and complementary
+      techniques for improving software quality. We&#39;ll cover topics such as:
+
+      Testing and TDD (**start here**),
+      Property-based testing (e.g. Rantly, QuickCheck),
+      Contracts (e.g. Contracts.ruby),
+      Formal specification & model-checking (e.g. TLA+),
+      Types&#39; slogan: "Make Illegal States Unrepresentable",
+      More formal methods: (e.g. proving stuff)
+
+      Yes, this is a _ton_ of stuff and it&#39;s going to be pretty technical. I&#39;m
+      also going to go through things quickly and info-dump. There will be
+      copious breadcrumbs leading you to where you can go to learn more. This
+      is a horizon-expanding "what&#39;s out there" sort of talk.
+
+      Now that I&#39;ve (convinced you/scared you off), it&#39;ll also be lots fun;
+      learning new stuff always is. I&#39;m going to make this stuff approachable
+      from the point of view of someone who&#39;s got some testing under their belt.
+      We can always tie things back to "how can I make my code better?" Put on
+      your space helmet and come along!'
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'CSS as a Service: Maintaining Style'
