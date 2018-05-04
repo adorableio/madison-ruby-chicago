@@ -4,6 +4,7 @@ $darkRed: #9F0215;
 $white: #ffffff;
 $black: #310f14;
 $pink: #F8D0D4;
+$dark-purple: #211b21;
 
 @font-face {
   font-family: 'Selima';
@@ -1037,3 +1038,53 @@ strong {
     }
   }
 }
+
+.ondeck-tab {
+      background-color: #fff;
+      border-radius: 5rem 0 0 5rem;
+      display: flex;
+      flex-direction: column;
+      font-size: 0.8em;
+      font-weight: bold;
+      opacity: 0.5;
+      padding: 0.5rem;
+      position: fixed;
+      right: 0;
+      text-transform: uppercase;
+      text-decoration: none;
+      top: 6rem;
+
+      span {
+        opacity: 0;
+        color: $dark-purple;
+        padding: 0;
+        position: absolute;
+      }
+
+      &:hover {
+        opacity: 1;
+        padding: 0.5rem 0.5rem 0.5rem 1rem;
+
+        span {
+          opacity: 1;
+          display: block;
+          margin-top: 0;
+          padding: 0 0.3rem;
+          position: unset;
+        }
+      }
+
+      img {
+        height: 2rem;
+        margin-bottom: 0.2rem;
+      }
+
+      @media only screen and (max-width: 400px) {
+        padding: 0.9rem;
+        font-size: 0.7em;
+        span {
+          opacity: 1;
+          position: unset;
+        }
+      }
+    }
