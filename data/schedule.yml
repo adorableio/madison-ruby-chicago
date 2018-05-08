@@ -277,16 +277,12 @@
       usable our work and the web is for everyone.'
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
-      title: 'Webpack or the Asset pipeline? Why not both!'
-      speaker: Gonzalo Maldonado
+      title: 'Special Musical Guest'
+      speaker: TBD
       startTime: 2018-05-11T11:15:00-05:00
       endTime: 2018-05-11T11:45:00-05:00
       tags: [talk, guest]
-      description: 'The goal of this talk is to explain what "Thinking in
-      Components" means and to show the tradeoffs between implementing this
-      Pattern using classic Rails technologies (Haml + Sass) and new ones
-      (React + Redux). It will also cover how Webpacker is used in these
-      implementations.'
+      description: ''
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: Lunch
@@ -337,18 +333,16 @@
       tags: [break, snack]
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
-      title: 'Ruby for Pentesters'
-      speaker: Tony Vincent T.Y
+      title: 'Webpack or the Asset pipeline? Why not both!'
+      speaker: Gonzalo Maldonado
       startTime: 2018-05-11T14:45:00-05:00
       endTime: 2018-05-11T15:15:00-05:00
       tags: [talk, guest]
-      description: 'The aim of this talk is to demonstrate how penetration
-      testing is done right using Ruby with examples and metrics. More
-      importantly this talk answers **Why Ruby for penetration testing?**
-
-      In a nutshell, this talk is about - Why I chose Ruby for pen testing ,An
-      introduction to Metasploit, Pentesting an example Heroku app using ruby,
-      What I learned using Ruby for pen testing and gotchas and pitfalls'
+      description: 'The goal of this talk is to explain what "Thinking in
+      Components" means and to show the tradeoffs between implementing this
+      Pattern using classic Rails technologies (Haml + Sass) and new ones
+      (React + Redux). It will also cover how Webpacker is used in these
+      implementations.'
       location: Newberry Library, 60 W Walton St, Chicago IL 60610
     -
       title: 'The Art of Growing Up'
